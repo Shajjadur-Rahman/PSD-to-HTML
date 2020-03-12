@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cuda</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--GOOGLE FONT-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- verndors css files -->
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" href="vendors/css/animated_circle.css" />
+    <link rel="stylesheet" href="vendors/css/all.min.css" />
+    <link rel="stylesheet" href="vendors/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="vendors/css/aos.css" />
+    <!-- resoures css files -->
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/responsive.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!--START HEADER SECTION-->
+    <header class="header_section clearfix" id="header">
+      <nav>
+        <div class="row">
+          <div class="logo">
+            <a href="#header">
+              <img src="resources/img/logo.png" alt="Cuda" />
+            </a>
+          </div>
+          <ul class="main_nav">
+            <li class="active"><a href="#header">home</a></li>
+            <li><a href="#services">services </a></li>
+            <li><a href="#team">team</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#teatimonial">teatimonial</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <div class="mobile_menu">
+            <span onclick="openNav()">&#9776;</span>
+            <div id="myNav" class="overlay">
+              <a href="#!" onclick="closeNav()" class="closebtn">&times;</a>
+              <div class="overlay_content">
+                <a href="#header" onclick="closeNav()">home</a>
+                <a href="#services" onclick="closeNav()">services </a>
+                <a href="#team" onclick="closeNav()">team</a>
+                <a href="#skill" onclick="closeNav()">skill</a>
+                <a href="#portfolio" onclick="closeNav()">portfolio</a>
+                <a href="#teatimonial" onclick="closeNav()">teatimonial</a>
+                <a href="#contact" onclick="closeNav()">contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="header_hero">
+          <h1>
+            Hi there! We are the new kids on the block and we build awesome
+            websites and mobile apps.
+          </h1>
+          <a href="#contact" class="btn">WORK WITH US!</a>
+        </div>
+      </div>
+    </header>
+    <!--END HEADER SECTION-->
+
+    <!-- START SERVICES SECTION -->
+    <section
+      class="services_section js__sevices_section clearfix"
+      id="services"
+    >
+      <div class="row">
+        <h2 data-aos="slide-left" data-aos-duration="1000">
+          SERVICES WE PROVIDE
+        </h2>
+        <p
+          class="little_description"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+        >
+          We are working with both individuals and businesses from all over the
+          globe to create awesome websites and applications.
+        </p>
+      </div>
+      <div class="row">
+        <div
+          class="col span_1_of_4 box"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/flag.png" alt="Flag" class="service_icon" />
+          <h3>Branding</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh.
+          </p>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="slide-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="resources/img/crayon.png"
+            alt="Crayon"
+            class="service_icon"
+          />
+          <h3>Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh.
+          </p>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/gear.png" alt="Gear" class="service_icon" />
+          <h3>Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh.
+          </p>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="slide-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="resources/img/rocket.png"
+            alt="Rocket"
+            class="service_icon"
+          />
+          <h3>ROCKET SCIENCE</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICES SECTION -->
+    <!-- START TEAM SECTION -->
+    <section class="team_section clearfix" id="team">
+      <div class="row">
+        <h2 data-aos="zoom-in" data-aos-duration="1000">
+          MEET OUR BEAUTIFUL TEAM
+        </h2>
+        <p
+          class="little_description"
+          data-aos="flip-up"
+          data-aos-duration="1000"
+        >
+          We are a small team of designers and developers, who help brands with
+          big ideas.
+        </p>
+      </div>
+      <div class="row">
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/tm1.jpg" alt="" class="team_member" />
+          <h3>ANNE HATHAWAY</h3>
+          <span class="role">CEO / Marketing Guru</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna.
+          </p>
+          <div class="social_link">
+            <ul>
+              <li>
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="far fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/tm2.jpg" alt="" class="team_member" />
+          <h3>Kate Upton</h3>
+          <span class="role">Creative Director</span>
+          <p>
+            Duis aute irure dolor in in voluptate velit esse cillum dolore
+            fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
+          </p>
+          <div class="social_link">
+            <ul>
+              <li>
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="far fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/tm3.jpg" alt="" class="team_member" />
+          <h3>Olivia Wilde</h3>
+          <span class="role">Lead Designer</span>
+          <p>
+            Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia
+            consequuntur magni dolores eos qui ratione voluptatem .
+          </p>
+          <div class="social_link">
+            <ul>
+              <li>
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="far fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+        >
+          <img src="resources/img/tm4.jpg" alt="" class="team_member" />
+          <h3>Ashley Greene</h3>
+          <span class="role">SEO / Developer</span>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam.
+          </p>
+          <div class="social_link">
+            <ul>
+              <li>
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="far fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TEAM SECTION -->
+    <!-- START SKILL SECTION -->
+    <section class="skill_section clearfix" id="skill">
+      <div class="row">
+        <h2 data-aos="zoom-in" data-aos-duration="1000">
+          WE GOT SKILLS!
+        </h2>
+        <p
+          class="little_description"
+          data-aos="flip-up"
+          data-aos-duration="1000"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="row">
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+        >
+          <svg
+            class="radial-progress web_design"
+            data-percentage="90"
+            viewBox="0 0 80 80"
+          >
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle
+              class="complete"
+              cx="40"
+              cy="40"
+              r="35"
+              style="stroke-dashoffset: 39.58406743523136;"
+            ></circle>
+            <text
+              class="percentage"
+              x="50%"
+              y="57%"
+              transform="matrix(0, 1, -1, 0, 80, 0)"
+            >
+              90%
+            </text>
+          </svg>
+
+          <h3>Web Design</h3>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+        >
+          <svg
+            class="radial-progress html_css"
+            data-percentage="75"
+            viewBox="0 0 80 80"
+          >
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle
+              class="complete"
+              cx="40"
+              cy="40"
+              r="35"
+              style="stroke-dashoffset: 39.58406743523136;"
+            ></circle>
+            <text
+              class="percentage"
+              x="50%"
+              y="57%"
+              transform="matrix(0, 1, -1, 0, 80, 0)"
+            >
+              75%
+            </text>
+          </svg>
+          <h3>HTML / CSS</h3>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
+        >
+          <svg
+            class="radial-progress graphic_design"
+            data-percentage="70"
+            viewBox="0 0 80 80"
+          >
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle
+              class="complete"
+              cx="40"
+              cy="40"
+              r="35"
+              style="stroke-dashoffset: 39.58406743523136;"
+            ></circle>
+            <text
+              class="percentage"
+              x="50%"
+              y="57%"
+              transform="matrix(0, 1, -1, 0, 80, 0)"
+            >
+              70%
+            </text>
+          </svg>
+          <h3>GRAPHIC DESIGN</h3>
+        </div>
+        <div
+          class="col span_1_of_4 box"
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
+        >
+          <svg
+            class="radial-progress ui_ux"
+            data-percentage="85"
+            viewBox="0 0 80 80"
+          >
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle
+              class="complete"
+              cx="40"
+              cy="40"
+              r="35"
+              style="stroke-dashoffset: 39.58406743523136;"
+            ></circle>
+            <text
+              class="percentage"
+              x="50%"
+              y="57%"
+              transform="matrix(0, 1, -1, 0, 80, 0)"
+            >
+              85%
+            </text>
+          </svg>
+          <h3>UI / UX</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- END SKILL SECTION -->
+
+    <!-- START PORTFOLIO SECTION -->
+    <section class="portfolio_section clearfix" id="portfolio">
+      <div class="row">
+        <h2 data-aos="zoom-in" data-aos-duration="1000">
+          OUR PORTFOLIO
+        </h2>
+        <p
+          class="little_description"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+          consectetur, adipisci velit, sed quia non numquam
+        </p>
+      </div>
+      <div class="row">
+        <div class="portfolio_btn" data-aos="zoom-in" data-aos-duration="1000">
+          <a class="button" data-filter="all">all</a>
+          <a class="button" data-filter=".web">web</a>
+          <a class="button" data-filter=".apps">apps</a>
+          <a class="button" data-filter=".icons">icons</a>
+        </div>
+      </div>
+      <div class="row ‍container">
+        <div class="mix web box">
+          <img
+            src="resources/img/ct1.png"
+            alt="Isometric Perspective Mock-Up"
+            class="portfolio_img"
+          />
+          <h4>Isometric Perspective Mock-Up</h4>
+        </div>
+        <div class="mix apps web box">
+          <img
+            src="resources/img/ct2.png"
+            alt="Time Zone App UI"
+            class="portfolio_img"
+          />
+          <h4>Time Zone App UI</h4>
+        </div>
+        <div class="mix icons web apps box">
+          <img
+            src="resources/img/ct3.png"
+            alt="Viro Media Players UI"
+            class="portfolio_img"
+          />
+          <h4>Viro Media Players UI</h4>
+        </div>
+        <div class="mix apps icons box">
+          <img
+            src="resources/img/ct4.png"
+            alt="Blog / Magazine Flat UI Kit"
+            class="portfolio_img"
+          />
+          <h4>Blog / Magazine Flat UI Kitp</h4>
+        </div>
+        <div class="call_to_action_button">
+          <a href="#!" class="btn" data-aos="zoom-in" data-aos-duration="1000"
+            >load more projects</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- END PORTFOLIO SECTION -->
+    <!-- START TESTIMONIAL SECTION -->
+    <section class="testimonial_section clearfix" id="teatimonial">
+      <div class="row">
+        <h2 data-aos="zoom-in" data-aos-duration="1000">
+          WHAT POEPLE SAY ABOUT US
+        </h2>
+        <p
+          class="little_description"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          Our clients love us!
+        </p>
+      </div>
+      <div class="row clearfix">
+        <div
+          class="col span_1_of_2 box"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="client_img">
+            <img src="resources/img/team1.jpg" alt="client images" />
+          </div>
+          <div class="client_review">
+            <q
+              >Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+              Maecenas fringilla urna eu nisl scelerisque.
+            </q>
+            <h4>Chanel Iman</h4>
+            <p>CEO of Pinterest</p>
+          </div>
+        </div>
+        <div
+          class="col span_1_of_2 box"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="client_img">
+            <img src="resources/img/team2.jpg" alt="client images" />
+          </div>
+          <div class="client_review">
+            <q
+              >Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+              condimentum facilisis porta.
+            </q>
+            <h4>ADRIANA LIMA</h4>
+            <p>Founder of Instagram</p>
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <div
+          class="col span_1_of_2 box"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="client_img">
+            <img src="resources/img/team3.jpeg" alt="client images" />
+          </div>
+          <div class="client_review">
+            <q
+              >Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In
+              condimentum facilisis porta.</q
+            >
+            <h4>ANNE HATHAWAY</h4>
+            <p>Lead Designer at Behance</p>
+          </div>
+        </div>
+        <div
+          class="col span_1_of_2 box"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="client_img">
+            <img src="resources/img/team4.jpg" alt="client images" />
+          </div>
+          <div class="client_review">
+            <q
+              >Phasellus non purus vel arcu tempor commodo. Fusce semper, purus
+              vel luctus molestie, risus sem cursus neque.
+            </q>
+            <h4>EMMA STONE</h4>
+            <p>Co-Founder of Shazam</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- ‍START CONTACT SECTION -->
+    <section class="contact_section" id="contact">
+      <div class="row">
+        <h2 data-aos="zoom-in" data-aos-duration="1000">
+          GET IN TOUCH
+        </h2>
+        <p
+          class="little_description"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          1600 Pennsylvania Ave NW, Washington, DC 20500, United States of
+          America. Tel: (202) 456-1111
+        </p>
+      </div>
+
+      <form action="" method="post" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+
+          <div class="col span_1_of_2">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+        </div>
+        <div class="row">
+          <textarea
+            name="message"
+            cols="30"
+            rows="8"
+            placeholder="Your message "
+          ></textarea>
+        </div>
+        <div class="row">
+          <input
+            type="submit"
+            value="send message"
+            class="btn btn_submit"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </div>
+      </form>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+    <!-- START FOOTER SECTION-->
+    <footer class="footer_section">
+      <div class="row">
+        <ul>
+          <li><a href="#!">Facebook </a></li>
+          <li><a href="#!">Twitter </a></li>
+          <li><a href="#!">Google+ </a></li>
+          <li><a href="#!"> LinkedIn </a></li>
+          <li><a href="#!">Behance</a></li>
+          <li><a href="#!">Dribbble</a></li>
+          <li><a href="#!"> GitHub </a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+    <!-- vendors js files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js" async defer></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/aos.js"></script>
+    <!-- resources js files -->
+    <script src="vendors/js/animated_circle.js"></script>
+    <script src="resources/js/main.js"></script>
+  </body>
+</html>

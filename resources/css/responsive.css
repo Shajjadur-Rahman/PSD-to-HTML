@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1200px) {
+  .footer_section ul li a {
+    padding: 0 2.3rem;
+  }
+  html {
+    font-size: 55.5%;
+  }
+  .social_link ul li {
+    margin: 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main_nav {
+    display: none;
+  }
+  .mobile_menu span {
+    display: block;
+    margin-top: 3rem;
+  }
+  .testimonial_section .client_img {
+    float: none;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+  }
+  .testimonial_section .client_review {
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .services_section .span_1_of_4 {
+    width: 49.2%;
+  }
+  .services_section .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  .services_section .service_icon {
+    margin-top: -2rem;
+  }
+  .team_section .span_1_of_4 {
+    width: 49.2%;
+  }
+  .team_section .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  .team_section .box {
+    margin-top: 6rem;
+  }
+  .skill_section .span_1_of_4 {
+    width: 49.2%;
+  }
+  .skill_section .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  .portfolio_section .box {
+    width: 49%;
+  }
+  .skill_section .box {
+    margin-top: 3rem;
+  }
+  .contact_section form {
+    width: 100%;
+  }
+  .footer_section ul li a {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header_hero h1 {
+    font-size: 3.5rem;
+  }
+  .portfolio_section .box {
+    width: 49%;
+  }
+  .portfolio_section .box:nth-child(3),
+  .portfolio_section .box:nth-child(4) {
+    margin-top: 7rem;
+  }
+
+  .testimonial_section .client_review {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .testimonial_section .client_img {
+    margin-bottom: 2rem;
+  }
+  .contact_section .span_1_of_2 {
+    width: 100%;
+  }
+  .contact_section .span_1_of_2:last-child {
+    margin-left: 0;
+    margin-top: -2.2rem;
+  }
+  .footer_section ul li {
+    display: block;
+  }
+  .footer_section ul li a {
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .row {
+    width: 95%;
+  }
+
+  .header_hero {
+    width: 95%;
+  }
+  .header_hero .btn {
+    width: 80%;
+  }
+  .services_section .span_1_of_4 {
+    width: 100%;
+  }
+  .team_section .span_1_of_4 {
+    width: 100%;
+  }
+  .skill_section .span_1_of_4 {
+    width: 100%;
+  }
+  .portfolio_section .box {
+    display: block;
+    margin-top: 7rem;
+    width: 100%;
+  }
+  .portfolio_section .portfolio_img {
+    width: 100%;
+  }
+  .portfolio_section .call_to_action_button .btn {
+    width: 80%;
+  }
+  .testimonial_section .span_1_of_2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .testimonial_section .client_review {
+    margin-left: 0;
+    text-align: center;
+  }
+  .contact_section form {
+    width: 100%;
+  }
+  .contact_section input[type="text"],
+  .contact_section input[type="email"] {
+    margin: 1rem 0;
+  }
+
+  .contact_section .span_1_of_2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact_section .btn_submit {
+    width: 80%;
+  }
+  .footer_section ul li {
+    display: block;
+    padding: 0.6rem 0;
+  }
+}
